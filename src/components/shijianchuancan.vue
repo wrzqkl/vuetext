@@ -5,6 +5,7 @@
         <p>count is {{ countNum }}</p>
 
         <button @click="newCount('hello syxy')">newCount 222</button>
+        <hr>
     </div>
 </template>
 
