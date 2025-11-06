@@ -2,26 +2,29 @@
   <div id="app">
     <Home />
     <!-- <Home> </Home> -->
+    <BackgroundEffect />
   </div>
 </template>
 
 <script>
 import Home from './views/Home.vue';
+import BackgroundEffect from './components/BackgroundEffect.vue';
 
 export default {
   name: 'App',
   components: {
     Home,
+    BackgroundEffect,
   },
 };
 </script>
 
 <style>
-  * {
+  /* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+  } */
 
   body {
     background-color: #000;

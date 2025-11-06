@@ -13,6 +13,11 @@
         <Shuzubianhuazhence></Shuzubianhuazhence>
         <Jisuanshuxing></Jisuanshuxing>
         <Classbangding></Classbangding>
+        <Stylebangding></Stylebangding>
+        <Watchzhenting></Watchzhenting>
+        <Biaodanshujvbangding></Biaodanshujvbangding>
+        <Mobanyinyong></Mobanyinyong>
+        <Zujianqiantao></Zujianqiantao>
     </div>
 </template>
 
@@ -28,6 +33,12 @@ import Shijianxiushifu from '../components/shijianxiushifu.vue'
 import Shuzubianhuazhence from '../components/shuzubianhuazhence.vue'
 import Jisuanshuxing from '../components/jisuanshuxing.vue'
 import Classbangding from '../components/classbangding.vue'
+import Stylebangding from '../components/stylebangding.vue'
+import Watchzhenting from '../components/watchzhenting.vue'
+import Biaodanshujvbangding from '../components/biaodanshujvbangding.vue'
+import Mobanyinyong from '../components/mobanyinyong.vue'
+import Zujianqiantao from '../components/zujianqiantao.vue'
+
 
 export default {
     name: 'Home',
@@ -42,7 +53,12 @@ export default {
         Shijianxiushifu,
         Shuzubianhuazhence,
         Jisuanshuxing,
-        Classbangding
+        Classbangding,
+        Stylebangding,
+        Watchzhenting,
+        Biaodanshujvbangding,
+        Mobanyinyong,
+        Zujianqiantao
     },
 }
 
