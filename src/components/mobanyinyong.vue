@@ -7,6 +7,7 @@
         <button @click="changeContent">改变内容</button>
         <br>
         <input type="text" ref="username"></input>
+        <hr>
     </div>
     
 </template>
