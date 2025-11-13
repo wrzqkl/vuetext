@@ -23,6 +23,11 @@
         <Zujianshijian></Zujianshijian>
         <ZujianshijianVmodel></ZujianshijianVmodel>
         <Chacaoslots></Chacaoslots>
+        <Shengmingzhouqi></Shengmingzhouqi>
+        <Shengmingzhouqiyingyong></Shengmingzhouqiyingyong>
+        <Dongtaizujian></Dongtaizujian>
+        <Yibuzujian></Yibuzujian>
+        <Yilaizhuruparent></Yilaizhuruparent>
     </div>
 </template>
 
@@ -48,6 +53,11 @@ import PropsjiaoyanA from '../components/propsjiaoyanA.vue'
 import Zujianshijian from '../components/zujianshijian.vue'
 import ZujianshijianVmodel from '../components/zujianshijianVmodel.vue'
 import Chacaoslots from '../components/chacaoslots.vue'
+import Shengmingzhouqi from '../components/shengmingzhouqi.vue'
+import Shengmingzhouqiyingyong from '../components/shengmingzhouqiyingyong.vue'
+import Dongtaizujian from '../components/dongtaizujian.vue'
+import Yibuzujian from '../components/yibuzujian.vue'
+import Yilaizhuruparent from '../components/yilaizhuruparent.vue'
 
 
 export default {
@@ -73,7 +83,12 @@ export default {
         PropsjiaoyanA,
         Zujianshijian,
         ZujianshijianVmodel,
-        Chacaoslots
+        Chacaoslots,
+        Shengmingzhouqi,
+        Shengmingzhouqiyingyong,
+        Dongtaizujian,
+        Yibuzujian,
+        Yilaizhuruparent
     },
 }
 
