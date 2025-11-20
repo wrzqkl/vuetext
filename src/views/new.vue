@@ -12,6 +12,7 @@
         <Zuhemobanyingyong></Zuhemobanyingyong>
         <Zushengmingzhouqi></Zushengmingzhouqi>
         <ZuheProps></ZuheProps>
+        <UsePinia></UsePinia>
     </div>
 </template>
   
@@ -23,6 +24,7 @@ import Zuhezhentingqi from "../newcomponents/zuhezhentingqi.vue"
 import Zuhemobanyingyong from "../newcomponents/zuhemobanyingyong.vue"
 import Zushengmingzhouqi from "../newcomponents/zushengmingzhouqi.vue"
 import ZuheProps from "../newcomponents/zuheProps.vue"
+import UsePinia from "../newcomponents/usepinia.vue"
 
 export default {
     name: "new",
@@ -38,7 +40,8 @@ export default {
         Zuhezhentingqi,
         Zuhemobanyingyong,
         Zushengmingzhouqi,
-        ZuheProps
+        ZuheProps,
+        UsePinia
     },
     mounted() {
         setTimeout(() => {

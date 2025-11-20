@@ -3,7 +3,6 @@
         <h3>组合式api----props----父组件</h3>
         <zuheChild title="78787878" age="18" :message3="message3" @onSomeEvent="getData"></zuheChild>
         <p>{{ message1 }}</p>
-        <hr>
     </div>
 </template>
   
