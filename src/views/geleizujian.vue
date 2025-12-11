@@ -4,18 +4,24 @@
         <nav class="navigation">
             <router-link to="/new" class="nav-link">跳转到new</router-link>
         </nav>
+        <nav class="navigation">
+            <router-link to="/yidongzujian" class="nav-link">跳转到移动组件</router-link>
+        </nav>
         <hr>
         <Swiper></Swiper>
+        <Elementbiaodan></Elementbiaodan>
     </div>
 </template>
   
 <script>
 import Swiper from '../newnewcomponents/swiper.vue'
+import Elementbiaodan from '../newnewcomponents/elementbiaodan.vue';
 
 export default {
     name: 'geleizujian',
     components: {
-        Swiper
+        Swiper,
+        Elementbiaodan
     },
     data() {
         return {
